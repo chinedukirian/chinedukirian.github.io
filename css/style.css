@@ -1,0 +1,147 @@
+
+#siteHeader{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo-container{
+    text-decoration: none;
+    color:black;
+    letter-spacing: 5px;
+}
+
+.logo,
+.logo-container{
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo{
+    font-weight: bold;
+}
+
+#menu{
+    list-style-type: none;
+    display: flex;
+}
+
+#menu li a{
+    text-decoration: none;
+    color:#000;
+    margin-right: 20px;
+}
+
+#banner{
+    background: url("../images/architect.jpg") no-repeat center/cover;
+    padding: 250px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#bannerLogoContainer{
+    color:#fff;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+#bannerLogo{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 10px;
+    color:#fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.section-padding{
+    padding: 40px 0;
+}
+
+.project-title{
+    background-color:rgba(0, 0, 0, 0.8);
+    padding: 10px 15px;
+    color:#fff;
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.section-heading{
+    font-weight: normal;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.team-title{
+    font-weight: normal;
+    color:#292828;
+    font-size: 21px;
+}
+
+.my{
+    margin: 18px 0;
+}
+
+.team-designation{
+    font-size: 15px;
+    color:#807e7e;
+    font-size: 15px;
+}
+
+.team-designation + p{
+    font-size: 15px;
+    color:#2e2e2e;
+    margin-bottom: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #f8f5f5;
+    color:#000;
+    padding: 10px 5px;
+    display: block;
+    text-align: center;
+}
+
+.btn-contact{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 10px;
+    text-decoration: none;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.form-control{
+    padding: 10px;
+    margin: 20px 0;
+    border:1px solid #ddd;
+    display: block;
+    width: 100%;
+}
+
+#footer{
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#footer a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+

@@ -7,32 +7,158 @@
     <link rel="stylesheet" href="styles/main.scss" />
 </head>
 <body>
-    <h1>Hello Public World!</h1>
-
-    <div class="d-flex flex-wrap gap-3 p-3">
-        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio rem odit odio laborum quasi iure fuga accusantium. Sint numquam consequatur ab facilis quasi vel vero!</div>
-        <div class="card">Iste optio autem odit, ipsa quae magni nostrum accusamus aliquam ut quis cupiditate corporis sapiente labore! Minus laborum blanditiis corrupti eius esse quo, perferendis est.</div>
-        <div class="card">Accusamus laborum eveniet, veniam eos rem tempore ipsum quo amet saepe nostrum ab earum eaque ut. Magnam quod beatae autem vitae delectus corporis quia enim?</div>
-        <div class="card">Voluptatibus distinctio sit illo autem, atque amet cumque totam doloribus magni quaerat! Rerum esse veniam sit et omnis. Doloribus exercitationem, nemo enim dolorem officiis distinctio.</div>
-        <div class="card">Libero, aut debitis! Pariatur sint eveniet molestiae explicabo aliquam non amet modi eaque libero reprehenderit impedit fuga nobis dignissimos reiciendis iste in beatae, architecto adipisci!</div>
-        <div class="card">Odio debitis cum ipsa tempora quo, consequuntur facere sit laudantium pariatur unde quae officia voluptas velit tempore rerum esse eum. Ratione rerum ipsum libero repudiandae.</div>
-        <div class="card">Repellendus, laudantium sed quas fuga molestiae nulla vel corporis! Saepe rerum vel, obcaecati corrupti sapiente animi ex ducimus tempore, voluptatem exercitationem quis esse cumque commodi!</div>
-        <div class="card">Possimus illum, dolore quae aliquid aliquam suscipit, necessitatibus tempora sint facere impedit voluptatem magni ullam eligendi officiis tenetur error dicta, ea laboriosam perspiciatis! Dignissimos, provident?</div>
-        <div class="card">Quam tenetur dolor sit dolorum eum eaque iure animi accusantium, nostrum aliquid odit inventore laborum nemo ullam. Vitae, eaque. Optio ex quaerat eos voluptatem molestias.</div>
-        <div class="card">Autem eos id pariatur incidunt possimus, dolorem quo modi ad! Veritatis, tenetur aut. Laborum officia ea quas cupiditate quia labore doloribus provident, quis id porro.</div>
-        <div class="card">Rerum eum, doloribus possimus accusantium nostrum alias. Quia porro ea, vel rerum similique, eos omnis consequuntur, voluptates quae aliquid necessitatibus veniam excepturi repellendus ratione autem.</div>
-        <div class="card">Veniam dolor doloribus eaque voluptate. Asperiores vitae vero quidem. Eaque consectetur tempore quas, quos qui molestias. Exercitationem, quibusdam. Quod eos a dolore sit commodi quae?</div>
-        <div class="card">Labore natus unde dolor rem explicabo quam minima impedit nulla laboriosam, quibusdam voluptas quaerat quisquam recusandae consequatur, id fugit perferendis mollitia dolores suscipit, repudiandae nam.</div>
-        <div class="card">Nam, natus provident? Nobis esse eaque amet sed, iure doloremque ut eligendi doloribus consectetur perferendis non iusto dolores, qui, labore maiores sequi dignissimos dicta vero!</div>
-        <div class="card">Officia voluptatum blanditiis debitis magni laborum animi, inventore voluptas excepturi doloremque iste soluta ex, at mollitia nihil deleniti ea totam quam. Ex velit id tempora.</div>
-        <div class="card">Minima velit, illum est iste dolorem libero repellendus reiciendis. Aspernatur modi ullam sapiente labore reprehenderit inventore minus sequi ipsa pariatur voluptatem! Neque laudantium asperiores maxime.</div>
-        <div class="card">Tenetur at iste accusamus quos optio non nam, placeat perspiciatis in eum sit enim corrupti numquam laudantium rem amet expedita porro aspernatur rerum adipisci similique.</div>
-        <div class="card">Natus veniam porro quas eum quae facere officiis ipsa, libero suscipit nobis! At voluptates natus repellendus aliquam, perspiciatis doloribus iusto quasi quidem, suscipit vel asperiores.</div>
-        <div class="card">Impedit ab, quibusdam consequatur saepe numquam similique quos perferendis ut est! Odio ab, quo adipisci unde perspiciatis obcaecati cupiditate delectus vero reiciendis, debitis omnis atque.</div>
-        <div class="card">Iure esse, nesciunt deleniti incidunt, expedita alias adipisci, quia maiores vero voluptatem rerum inventore est fuga corrupti ut repellat aut debitis cupiditate neque. Perspiciatis, fuga!</div>
-
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&family=Pinyon+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/style.css">
+      
+        <title>Home</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header id="siteHeader">
+                <div class="container header-container">
+                    <a href="#" class="logo-container">
+                        <span class="logo">B R</span> Architects
+                    </a>
+                    <ul id="menu">
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+    
+            <section id="banner">
+                <div id="bannerLogoContainer">
+                    <span id="bannerLogo">BR</span> Architects
+                </div>
+            </section>
+    
+            <section id="projects" class="section-padding">
+                <div class="container">
+                    <h2 class="section-heading">Projects</h2>
+                    <div class="row">
+                        <div class="col-3 position-relative">
+                            <span class="project-title">Summer House</span>
+                            <img src="images/house2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3 position-relative">
+                            <span class="project-title">Brick House</span>
+                            <img src="images/house3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3 position-relative">
+                            <span class="project-title">Renovated</span>
+                            <img src="images/house4.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3 position-relative">
+                            <span class="project-title">Barn House</span>
+                            <img src="images/house5.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3 position-relative">
+                            <span class="project-title">Summer House</span>
+                            <img src="images/house2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3 position-relative">
+                            <span class="project-title">Brick House</span>
+                            <img src="images/house3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3 position-relative">
+                            <span class="project-title">Renovated</span>
+                            <img src="images/house4.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3 position-relative">
+                            <span class="project-title">Barn House</span>
+                            <img src="images/house5.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="about" class="section-padding">
+                <div class="container">
+                    <h2 class="section-heading">About</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium modi nisi reiciendis, molestias dolore natus 
+                        ducimus quidem iste et eaque officia. Pariatur facere numquam quis eius deserunt. Quae, commodi ratione.
+                    </p>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="images/team1.jpg" class="img-fluid" alt="">
+                            <h2 class="team-title my">John Doe</h2>
+                            <p class="team-designation my">CEO & Founders</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, voluptates! Nulla 
+                                voluptatibus asperiores sed placeat 
+                            </p>
+                            <a href="#" class="btn">Contact</a>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/team2.jpg" class="img-fluid" alt="">
+                            <h2 class="team-title my">Jane Doe</h2>
+                            <p class="team-designation my">Architect</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, voluptates! Nulla 
+                                voluptatibus asperiores sed placeat 
+                            </p>
+                            <a href="#" class="btn">Contact</a>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/team3.jpg" class="img-fluid" alt="">
+                            <h2 class="team-title my">Mike Ross</h2>
+                            <p class="team-designation my">Architect</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, voluptates! Nulla 
+                                voluptatibus asperiores sed placeat 
+                            </p>
+                            <a href="#" class="btn">Contact</a>
+                        </div>
+                        <div class="col-3">
+                            <img src="images/team4.jpg" class="img-fluid" alt="">
+                            <h2 class="team-title my">Dan Star</h2>
+                            <p class="team-designation my">Architect</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, voluptates! Nulla 
+                                voluptatibus asperiores sed placeat 
+                            </p>
+                            <a href="#" class="btn">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="contact" class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="section-heading">Contact</h2>
+                            <p>Lets get in touch and talk about your next project</p>
+                    <form action="">
+                        <input type="text" placeholder="Name" class="form-control">
+                        <input type="email" placeholder="email" class="form-control">
+                        <input type="text" placeholder="Subject" class="form-control">
+                        <textarea name="" id="" placeholder="Comment" class="form-control"></textarea>
+                        <a href="#" class="btn-contact">Send Message</a>
+                    </form>
+                        </div>
+                        <div class="col-12">
+                            <img src="images/map.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+            <footer id="footer">
+                <p>
+                    &copy; <em>Chineduwebpage, <a href="#">Alright Reserved!</em></a>
+                </p>
+            </footer>
         </div>
-
-    </div>
+    </body>
+    </html>
 </body>
 </html>
