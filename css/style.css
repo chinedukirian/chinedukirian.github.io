@@ -9,6 +9,25 @@
     align-items: center;
     padding: 15px 0;
 }
+.slider {
+    font-size: 20px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow */
+    width: 100%; /* Make it span the full width of the page */
+    position: relative;
+    animation: scroll-left 10s linear infinite; /* Apply the animation */
+  }
+  
+  /* Define the animation */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%); /* Start off-screen to the right */
+    }
+    100% {
+      transform: translateX(-100%); /* End off-screen to the left */
+    }
+  }
 
 .container h2{
     text-decoration-color: yellow;
