@@ -203,6 +203,7 @@
 }
 
 #footer a{
+    
     display: inline-block; /* Makes the button take its own line */
     margin: 20px auto 0; /* Adds space above or below the button */
     padding: 10px 20px;
@@ -210,6 +211,7 @@
     font-size: 16px;
     border: none;
     color: white;
+    text-align: center;
     border: 2px solid darkgreen;
     border-radius: 8px;
     cursor: pointer;
