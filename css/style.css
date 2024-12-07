@@ -66,6 +66,26 @@
     letter-spacing: 5px;
 }
 
+.icon-container {
+  position: absolute;
+  font-size: 2rem;
+  right: 96rem; 
+  color: #333; /* Icon color */
+}
+
+.icon-container {
+  animation: rotate 2s linear infinite; /* Rotate infinitely */
+}
+
+/* Keyframes for Rotation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 .logo,
 .logo-container{
@@ -74,6 +94,7 @@
 
 .logo{
     font-weight: bold;
+    font-size: x-large;
 }
 
 #menu{
