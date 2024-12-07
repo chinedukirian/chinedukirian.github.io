@@ -98,20 +98,81 @@
   background: linear-gradient(90deg, #0078d7, #A5BCCF);
 }
 
+.burger-menu {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+}
+
+/* Navigation Menu */
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .burger-menu {
+    display: block; /* Show burger menu on smaller screens */
+  }
+
+  nav {
+    display: none; /* Hide navigation by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #0078d7;
+    flex-direction: column; /* Stack menu items vertically */
+  }
+
+  nav ul {
+    flex-direction: column; /* Align list items vertically */
+    gap: 10px;
+    padding: 20px;
+  }
+
+  nav ul li {
+    text-align: center;
+  }
+
+  nav.hidden {
+    display: none; /* Add a class to hide the menu */
+  }
+
+  nav.visible {
+    display: flex; /* Show menu when visible class is added */
+  }
+}
+
 #banner{
   display: flex;
   justify-content: center;transition: all 0.5s ease;
   background: url("../images/architect.jpg") no-repeat center/cover;
   padding: 250px 0;
-    
-
 }
 
 #banner:hover{
   opacity: 0.8;
   transform: scale(1.04);
 }
-
 
 #bannerLogoContainer{
     color:#fff;
@@ -142,8 +203,6 @@
     transform: scale(1.05);
   }
 
-
-
 .section-padding{
     padding: 40px 0;
 }
@@ -167,7 +226,6 @@
     /* color: #998454; */
 }
 
-
 .team-title{
     font-weight: normal;
     color:#292828;
@@ -189,7 +247,6 @@
     color:#2e2e2e;
     margin-bottom: 10px;
 }
-
 
 .btn{
     text-decoration: none;
@@ -226,7 +283,6 @@
     opacity: 0.8;
     transform: scale(1.05);
   }
-
 
 .form-control{
     padding: 10px;
