@@ -71,6 +71,7 @@
   font-size: 2rem;
   right: 96rem; 
   color: #333; /* Icon color */
+  cursor: pointer;
 }
 
 .icon-container {
