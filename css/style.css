@@ -78,7 +78,7 @@
 
 #menu{
     list-style-type: none;
-    display: flex;
+    display: flex;   
 }
 
 
@@ -88,6 +88,10 @@
     margin-right: 20px;
 }
 
+#menu li:hover {
+  background: linear-gradient(90deg, #0078d7, #A5BCCF);
+  color: #fff;
+}
 #banner{
     background: url("../images/architect.jpg") no-repeat center/cover;
     padding: 250px 0;
