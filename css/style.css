@@ -8,6 +8,34 @@
     align-items: center;
     padding: 15px 0;
 }
+
+.bell-notification {
+  position: absolute;
+  top: 2rem; /* Distance from the bottom */
+  right: 1rem; /* Distance from the right */
+  font-size: 2rem; /* Adjust icon size */
+  color: #333; /* Icon color */
+  cursor: pointer;
+}
+
+.bell-notification:hover {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+}
 .slider {
     font-size: 20px; /* Adjust font size */
     font-weight: bold; /* Make the text bold */
