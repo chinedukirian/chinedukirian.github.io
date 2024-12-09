@@ -322,12 +322,65 @@ nav ul li a:hover {
     transform: scale(1.05);
   }
 
+  
 .form-control{
     padding: 10px;
     margin: 20px 0;
     border:1px solid #ddd;
     display: block;
     width: 100%;
+}
+
+#our-work {
+  padding: 4rem 2rem;
+  background-color: #f4f4f4; /* Light background for contrast */
+  text-align: center; /* Center-align text */
+}
+
+#our-work .container {
+  max-width: 1200px; /* Limit the width */
+  margin: 0 auto; /* Center container on the page */
+  padding: 0 1rem; /* Add some padding for small screens */
+}
+
+#our-work h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333; /* Dark color for headings */
+  margin-bottom: 1rem;
+}
+
+#our-work h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #666; /* Subtle color for subheading */
+  margin-bottom: 1rem;
+}
+
+#our-work .intro {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+  #our-work {
+      padding: 2rem 1rem;
+  }
+
+  #our-work h2 {
+      font-size: 2rem;
+  }
+
+  #our-work h3 {
+      font-size: 1.5rem;
+  }
+
+  #our-work .intro {
+      font-size: 1rem;
+  }
 }
 
 #footer{
